@@ -1,0 +1,42 @@
+{
+  "name": "zeeml-json-csv",
+  "version": "1.0.0",
+  "description": "Zero-dependency RFC-4180 relational JSON-to-CSV flattener, CSV-to-JSON parser, CGPA normalizer, and lexical cadence analyzer by ZeeML (zeeml.com).",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "bin": {
+    "zeeml-json-csv": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "README.md",
+    "LICENSE",
+    "assets/zeeml-npm-banner.svg"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "homepage": "https://zeeml.com/json-to-csv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zee-ML/zeeml-js-packages.git"
+  },
+  "bugs": {
+    "url": "https://zeeml.com/tools"
+  },
+  "author": "ZeeML Engineering <engineering@zeeml.com> (https://zeeml.com)",
+  "license": "MIT",
+  "keywords": [
+    "json-to-csv",
+    "csv-to-json",
+    "rfc-4180",
+    "flatten-json",
+    "word-counter",
+    "burstiness",
+    "cgpa-calculator",
+    "zeeml"
+  ]
+}
